@@ -1,0 +1,26 @@
+# ignorar todo
+*
+
+# salvo subcarpetas
+!*/
+
+# excepto estas carpetas
+.idea
+.vscode
+.cmake*/
+
+# Y el código
+!*.cpp
+!*.c
+!*.hpp
+!*.h
+
+# y los ficheros de casos
+!*.in
+!*.out
+
+# y los enunciados
+!*.pdf
+
+# Y estos ficheros
+!.gitignore
